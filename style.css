@@ -1,0 +1,37 @@
+body {
+    background: rgb(53, 53, 232);
+    font: normal 15pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 8px;
+    padding:12px;
+    width: 500px;
+    line-height: 37px;
+    margin: auto;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.379);
+}
+
+section#fim{
+    padding-right: 20px;
+}
+
+.inputInicio{
+    margin-left: 8px;
+}
+
+.inputFim{
+    margin-left: 22px;
+}
+
+footer{
+    font-style: italic;
+    color: white;
+    text-align: center;
+}

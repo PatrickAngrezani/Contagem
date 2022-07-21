@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section>
+        <!-- inicio -->
+        <label for="inicio">Início:
+            <input type="number" id="inicio" placeholder="Inicie a contagem" class="inputInicio" required> <br>
+        </label>
+        <!-- fim -->
+        <label for="fim">Fim:
+            <input type="number" id="fim" placeholder="Digite um valor limite" class="inputFim" required> <br>
+        </label>
+        <!-- passo -->
+        <label for="passo">Passo:
+            <input type="number" id="passo" placeholder="Informe a sequência">
+        </label> <br>
+        <input type="button" value="Contar" onclick="contar()">
+        <div id="res">
+            <p>Preparando a contagem</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;PatrickAngrezani</p>
+    </footer>
+</body>
+</html>
+
